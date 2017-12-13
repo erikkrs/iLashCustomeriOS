@@ -1,0 +1,445 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		481756D4C6FAE19B24E332AA /* Pods_iLashCustomer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC1DBB6CA5217B6142843527 /* Pods_iLashCustomer.framework */; };
+		4D22C2731FC6BFE600DEA1CB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D22C2721FC6BFE600DEA1CB /* AppDelegate.swift */; };
+		4D22C2781FC6BFE600DEA1CB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D22C2761FC6BFE600DEA1CB /* Main.storyboard */; };
+		4D22C27A1FC6BFE600DEA1CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D22C2791FC6BFE600DEA1CB /* Assets.xcassets */; };
+		4D22C27D1FC6BFE600DEA1CB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D22C27B1FC6BFE600DEA1CB /* LaunchScreen.storyboard */; };
+		4D22C2C31FC6C32C00DEA1CB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4D22C2C21FC6C32C00DEA1CB /* GoogleService-Info.plist */; };
+		4D22C2CB1FC6C38A00DEA1CB /* AuthProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D22C2C51FC6C38A00DEA1CB /* AuthProvider.swift */; };
+		4D22C2CC1FC6C38A00DEA1CB /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D22C2C61FC6C38A00DEA1CB /* Constants.swift */; };
+		4D22C2CD1FC6C38A00DEA1CB /* DBProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D22C2C71FC6C38A00DEA1CB /* DBProvider.swift */; };
+		4D22C2CE1FC6C38A00DEA1CB /* RiderVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D22C2C81FC6C38A00DEA1CB /* RiderVC.swift */; };
+		4D22C2CF1FC6C38A00DEA1CB /* SignInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D22C2C91FC6C38A00DEA1CB /* SignInVC.swift */; };
+		4D22C2D01FC6C38A00DEA1CB /* UberHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D22C2CA1FC6C38A00DEA1CB /* UberHandler.swift */; };
+		F28618331FDF0B5C00946559 /* Emitter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28618321FDF0B5C00946559 /* Emitter.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4D22C26F1FC6BFE600DEA1CB /* iLashCustomer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iLashCustomer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D22C2721FC6BFE600DEA1CB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4D22C2771FC6BFE600DEA1CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4D22C2791FC6BFE600DEA1CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4D22C27C1FC6BFE600DEA1CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4D22C27E1FC6BFE600DEA1CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D22C2C21FC6C32C00DEA1CB /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		4D22C2C51FC6C38A00DEA1CB /* AuthProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthProvider.swift; sourceTree = "<group>"; };
+		4D22C2C61FC6C38A00DEA1CB /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		4D22C2C71FC6C38A00DEA1CB /* DBProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DBProvider.swift; sourceTree = "<group>"; };
+		4D22C2C81FC6C38A00DEA1CB /* RiderVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RiderVC.swift; sourceTree = "<group>"; };
+		4D22C2C91FC6C38A00DEA1CB /* SignInVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInVC.swift; sourceTree = "<group>"; };
+		4D22C2CA1FC6C38A00DEA1CB /* UberHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UberHandler.swift; sourceTree = "<group>"; };
+		7564BBDA2C7C2B4F8C863B97 /* Pods-iLashCustomer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iLashCustomer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iLashCustomer/Pods-iLashCustomer.debug.xcconfig"; sourceTree = "<group>"; };
+		998008F1067EDD35874F55E3 /* Pods-iLashCustomer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iLashCustomer.release.xcconfig"; path = "Pods/Target Support Files/Pods-iLashCustomer/Pods-iLashCustomer.release.xcconfig"; sourceTree = "<group>"; };
+		CC1DBB6CA5217B6142843527 /* Pods_iLashCustomer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iLashCustomer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F28618321FDF0B5C00946559 /* Emitter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Emitter.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4D22C26C1FC6BFE600DEA1CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				481756D4C6FAE19B24E332AA /* Pods_iLashCustomer.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		367129F8DC2508241745E530 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7564BBDA2C7C2B4F8C863B97 /* Pods-iLashCustomer.debug.xcconfig */,
+				998008F1067EDD35874F55E3 /* Pods-iLashCustomer.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		4D22C2661FC6BFE600DEA1CB = {
+			isa = PBXGroup;
+			children = (
+				4D22C2711FC6BFE600DEA1CB /* iLashCustomer */,
+				4D22C2701FC6BFE600DEA1CB /* Products */,
+				367129F8DC2508241745E530 /* Pods */,
+				85A26C95E402E612394FDAE7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4D22C2701FC6BFE600DEA1CB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4D22C26F1FC6BFE600DEA1CB /* iLashCustomer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4D22C2711FC6BFE600DEA1CB /* iLashCustomer */ = {
+			isa = PBXGroup;
+			children = (
+				4D22C2721FC6BFE600DEA1CB /* AppDelegate.swift */,
+				4D22C2C41FC6C36600DEA1CB /* Controllers */,
+				4D22C2761FC6BFE600DEA1CB /* Main.storyboard */,
+				4D22C2791FC6BFE600DEA1CB /* Assets.xcassets */,
+				4D22C27B1FC6BFE600DEA1CB /* LaunchScreen.storyboard */,
+				4D22C27E1FC6BFE600DEA1CB /* Info.plist */,
+				4D22C2C21FC6C32C00DEA1CB /* GoogleService-Info.plist */,
+			);
+			path = iLashCustomer;
+			sourceTree = "<group>";
+		};
+		4D22C2C41FC6C36600DEA1CB /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				4D22C2C51FC6C38A00DEA1CB /* AuthProvider.swift */,
+				4D22C2C61FC6C38A00DEA1CB /* Constants.swift */,
+				4D22C2C71FC6C38A00DEA1CB /* DBProvider.swift */,
+				4D22C2C81FC6C38A00DEA1CB /* RiderVC.swift */,
+				4D22C2C91FC6C38A00DEA1CB /* SignInVC.swift */,
+				4D22C2CA1FC6C38A00DEA1CB /* UberHandler.swift */,
+				F28618321FDF0B5C00946559 /* Emitter.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		85A26C95E402E612394FDAE7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CC1DBB6CA5217B6142843527 /* Pods_iLashCustomer.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4D22C26E1FC6BFE600DEA1CB /* iLashCustomer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D22C2811FC6BFE600DEA1CB /* Build configuration list for PBXNativeTarget "iLashCustomer" */;
+			buildPhases = (
+				8E7848377DBCEFE9A89BFC48 /* [CP] Check Pods Manifest.lock */,
+				4D22C26B1FC6BFE600DEA1CB /* Sources */,
+				4D22C26C1FC6BFE600DEA1CB /* Frameworks */,
+				4D22C26D1FC6BFE600DEA1CB /* Resources */,
+				25235533EA2A7F00BDD59F77 /* [CP] Embed Pods Frameworks */,
+				97EF25437F5211E423A7FDE6 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iLashCustomer;
+			productName = iLashCustomer;
+			productReference = 4D22C26F1FC6BFE600DEA1CB /* iLashCustomer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4D22C2671FC6BFE600DEA1CB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "iLash inc.";
+				TargetAttributes = {
+					4D22C26E1FC6BFE600DEA1CB = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 33C2BA6L4J;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 4D22C26A1FC6BFE600DEA1CB /* Build configuration list for PBXProject "iLashCustomer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4D22C2661FC6BFE600DEA1CB;
+			productRefGroup = 4D22C2701FC6BFE600DEA1CB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4D22C26E1FC6BFE600DEA1CB /* iLashCustomer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4D22C26D1FC6BFE600DEA1CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D22C27D1FC6BFE600DEA1CB /* LaunchScreen.storyboard in Resources */,
+				4D22C2C31FC6C32C00DEA1CB /* GoogleService-Info.plist in Resources */,
+				4D22C27A1FC6BFE600DEA1CB /* Assets.xcassets in Resources */,
+				4D22C2781FC6BFE600DEA1CB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		25235533EA2A7F00BDD59F77 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-iLashCustomer/Pods-iLashCustomer-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/Stripe/Stripe.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Stripe.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iLashCustomer/Pods-iLashCustomer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8E7848377DBCEFE9A89BFC48 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iLashCustomer-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		97EF25437F5211E423A7FDE6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iLashCustomer/Pods-iLashCustomer-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4D22C26B1FC6BFE600DEA1CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D22C2D01FC6C38A00DEA1CB /* UberHandler.swift in Sources */,
+				4D22C2CB1FC6C38A00DEA1CB /* AuthProvider.swift in Sources */,
+				F28618331FDF0B5C00946559 /* Emitter.swift in Sources */,
+				4D22C2CD1FC6C38A00DEA1CB /* DBProvider.swift in Sources */,
+				4D22C2CE1FC6C38A00DEA1CB /* RiderVC.swift in Sources */,
+				4D22C2CF1FC6C38A00DEA1CB /* SignInVC.swift in Sources */,
+				4D22C2731FC6BFE600DEA1CB /* AppDelegate.swift in Sources */,
+				4D22C2CC1FC6C38A00DEA1CB /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4D22C2761FC6BFE600DEA1CB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4D22C2771FC6BFE600DEA1CB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4D22C27B1FC6BFE600DEA1CB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4D22C27C1FC6BFE600DEA1CB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4D22C27F1FC6BFE600DEA1CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4D22C2801FC6BFE600DEA1CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4D22C2821FC6BFE600DEA1CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7564BBDA2C7C2B4F8C863B97 /* Pods-iLashCustomer.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 33C2BA6L4J;
+				INFOPLIST_FILE = iLashCustomer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ilash.customer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		4D22C2831FC6BFE600DEA1CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 998008F1067EDD35874F55E3 /* Pods-iLashCustomer.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 33C2BA6L4J;
+				INFOPLIST_FILE = iLashCustomer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ilash.customer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4D22C26A1FC6BFE600DEA1CB /* Build configuration list for PBXProject "iLashCustomer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D22C27F1FC6BFE600DEA1CB /* Debug */,
+				4D22C2801FC6BFE600DEA1CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D22C2811FC6BFE600DEA1CB /* Build configuration list for PBXNativeTarget "iLashCustomer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D22C2821FC6BFE600DEA1CB /* Debug */,
+				4D22C2831FC6BFE600DEA1CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4D22C2671FC6BFE600DEA1CB /* Project object */;
+}
